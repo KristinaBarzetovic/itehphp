@@ -8,6 +8,8 @@ $companies[] = 'McDonalds';
 $companies[] = 'Coca-Cola';
 
 
+
+
 if (isset($_REQUEST['query'])) {
     $query = $_REQUEST['query'];
     $suggestion = "";
